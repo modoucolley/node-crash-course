@@ -1,0 +1,14 @@
+
+These allows us to send dynamic data in our html with the help of express, There are few templating engines available
+such as express handlebars, or pug or ejs (embedde js templating)
+
+
+EJS VIEW ENGINE
+
+ Installing ejs locally : npm install ejs
+
+ ejs will look for the views folder by default
+
+ in ejs, we define our view file with a .ejs extension
+
+ ejs files contain html with ejs speicific code

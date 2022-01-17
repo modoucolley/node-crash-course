@@ -1,0 +1,47 @@
+
+sql = tables, rows, columns
+
+nosql = collections, documents
+
+
+Mongo DB Setup Options
+
+- Install locally and use and then deploy that
+
+- use a cloud db that is hosted for us  : mongodb atlas , its free : Build a cluster
+  create a database and collection, 
+  create a new database user with user and password
+  give read and write access
+
+username : admin
+	password : admin
+
+- To connect, click the connect - connect your application - get the connection string
+  we will then have to a make a connection, we could do this by using the plain mongodb api
+  package and make queries, or we could use the mongoose package 
+
+
+  MONGOOSE 
+
+  mongoose is an ODM (Object document mapping) library, this means it allows us to create model from
+  our mongodb database and gives us function such as create delete get find etc
+
+  We work with mongoose by creating schemas and models;
+
+  example : user schema: - name (string), required
+                         - age (number)
+                         - bio (string)
+
+ we will then create a model based on this schema and then the model will give us
+ access to methods such as save, get delete etc
+
+
+ install mongoose : npm install mongoose
+
+
+Once our connection to our mongodb is done, we can create our models and schemas
+
+we can create a folder and file and name it blog.js for our blog model, this is where
+we create our schema and wrap the schema in a model
+
+we can then import this file and use the model to create find or delete our collection documents

@@ -1,0 +1,24 @@
+Node packages can be found online from the nmpjspacakge website
+
+installing node packages globally : This installs the package for our whole system
+
+npm install -g nodemon
+
+nodemon provides us with a live reload server and to run our code, we no longer
+use node server, rather we use nodemon server
+
+
+Installing packages locally
+
+Here we need the package.json file, which keeps tracks of of our packages.
+To initialize this file in our project : npm init
+
+To install a package locally : 
+
+npm i --save lodash or 
+npm i lodash
+
+
+Express : A framework for managing routing, requests, server side logic and response for node js
+
+npm install express

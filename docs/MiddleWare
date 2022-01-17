@@ -1,0 +1,14 @@
+
+This is a piece of code or function that runs between the server getting a requests
+and responding. There is a possiblity that a middle can be not run when we send a response
+before reaching the middleware. They are usually with the code app.use()
+
+middleware help us in responding to 404 error pages, logging server requests info
+whenever we get a request. An example of this is morgan
+
+npm install morgan
+
+They also help us in serving static files like css, images etc, A example of this
+is express' static middleware.
+
+
