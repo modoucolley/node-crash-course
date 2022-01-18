@@ -3,3 +3,12 @@
  post 
  delete 
  put request to update existing data
+
+
+ To send data from a form, we need to have a form with an action to a url and a post method
+ and then add name attributes to the input fields so as to be able to access them
+
+
+ To handle a post requests on the server, we need to use a middleware that will enable us to
+ to be able to get the data from the form in a format that we can use, and that is the urlencoded 
+ which is available via express

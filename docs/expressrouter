@@ -1,0 +1,7 @@
+This enables us to manage all of our routes more efficiently.
+
+As we have multiple route in our app js file, there will be a need to separate these
+routes into their respective routes like blog having their own routes files etc etc
+
+so we create a folder called routes and inside this create a file names blogRoutes.js
+
